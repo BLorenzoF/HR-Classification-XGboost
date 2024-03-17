@@ -1,0 +1,13 @@
+Variable,Type,Expectation,Comments
+Department,Object,Medium.,"The bigger the department, more people will be promoted from that department, but there is a minimum expected of promotions from each department."
+Region,Object,Medium,"Size of region related to the amount of departments."
+Education,Object,High,"Level of education expected to be important when promoting."
+Gender,Object,Low,"If the company operates at an expected level of equity, gender shouldn't be important in the promotion process. Have to be careful on not establishing a gender bias in the model."
+Recruitment Channel,Object,Low,"The way the employee was recruited shouldn't e important, but it is probable we might fin an insight when analyzing the data"
+Number of Trainings,Numeric,High,"Number of trainings is expected to be highly regarded" 
+Age,Numeric,Low,"While not excluding, age might determine laboral experience"
+Previous year rating,Numeric,High,"If employee rating is high, it is expected to have more options of being promoted"
+Length of service,Numeric,High,"This variable might be correlated with age, I consider this column to be important due to the knowledge of how the company works" 
+KPIs_met >80% ,Binary,High,"Employees considered to be promoted are the ones with KPI's better than 60%."
+Awards_won,Binary,High,"Very important for promotion if employee is awarded by the company."
+Avg_training_score,Numeric,High,"Training score, with number of trainings should be important to demonstrate the worker's abilities"
