@@ -1,6 +1,7 @@
+#### Introduction
 This repository was showcased at Neoland's Data Science Bootcamp in April 2020. Exploring the application of variable analysis and machine learning technique for a classification task. with the first iteration using a logistic regression model and the second a XGBoost decision tree model.
 
-About the problem to solve:
+### About the problem to solve:
 
 The client is a large multinational company which have 9 broad verticals (different services) across the organization. The problem they are facing is around iden
 
